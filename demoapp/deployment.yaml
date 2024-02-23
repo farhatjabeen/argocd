@@ -14,7 +14,7 @@ spec:
         app: reactapp
     spec:
       containers:
-      - image: jennykibiri/reactapp
+      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
         name: reactapp
         ports:
         - containerPort: 80
