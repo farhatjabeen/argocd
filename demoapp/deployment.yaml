@@ -14,7 +14,7 @@ spec:
         app: reactapp
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+      - image: nanajanashia/argocd-app:1.0
         name: reactapp
         ports:
         - containerPort: 80
